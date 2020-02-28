@@ -1,6 +1,4 @@
 package com.deniszacharov;
-
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
@@ -13,7 +11,6 @@ public class Main {
         scanFile(FILENAME);
 
     }
-
     private static void scanFile(String filename) throws FileNotFoundException {
         Map<String, Integer> map = new HashMap<>();
         File file = new File(filename);
